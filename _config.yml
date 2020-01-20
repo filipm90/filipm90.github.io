@@ -1,0 +1,10 @@
+site. You would add this to your _config.yml file:
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+theme: jekyll-theme-midnight
