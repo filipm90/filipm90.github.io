@@ -1,5 +1,6 @@
 title: Filip Miljković
-description: Welcome to the short presentation of my research!.
+description: Welcome to the short presentation of my research!
+mainfont: Arial
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-midnight
