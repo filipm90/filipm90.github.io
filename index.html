@@ -8,11 +8,42 @@ layout: default
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #a61717;
+  color: white;
+}
+</style>
+
 </head>
 
 <body>
 
-<div class="left" style="width:20%">
+<div class="left">
   <h3 class="nav">Menu</h3>
   <li><a class="active" href="https://filipm90.github.io/index.html">Home</a></li>
   <li><a href="https://filipm90.github.io/publications.html">Publications</a></li>
@@ -20,14 +51,10 @@ layout: default
   <li><a href="https://filipm90.github.io/contact.html">Contact</a></li>
 </div>
 
-<div style="margin-left:20%">
-
 <div class="main">    
   <h1>Hello World</h1>
   <p>I'm hosted with GitHub Pages.</p>
   <p>This page is still under construction!</p>
-</div>
-
 </div>
 
 </body>
