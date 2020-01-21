@@ -38,16 +38,41 @@ body {
   color: white;
 }
 </style>
-
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+.left {
+    width: 20%;
+    float: left;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {    
+    margin: 1px 0;
+    border: 1px solid #999;
+}
+.nav li a {
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+}
 </head>
 
   <body>
   
-<div class="topnav">
-  <a class="active" href="https://filipm90.github.io/index.html">Home</a>
-  <a href="https://filipm90.github.io/publications.html">Publications</a>
-  <a href="https://filipm90.github.io/teaching.html">Teaching</a>
-  <a href="https://filipm90.github.io/contact.html">Contact</a>
+<div class="left">
+  <ul class="nav">
+    <li><a class="active" href="https://filipm90.github.io/index.html">Home</a></li>
+    <li><a href="https://filipm90.github.io/publications.html">Publications</a></li>
+    <li><a href="https://filipm90.github.io/teaching.html">Teaching</a></li>
+    <li><a href="https://filipm90.github.io/contact.html">Contact</a></li>
+  </ul>
 </div>
 
 <div class="main">    
